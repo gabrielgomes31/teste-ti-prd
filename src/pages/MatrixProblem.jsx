@@ -15,15 +15,13 @@ export default function MatrixProblem() {
             <BackArrow></BackArrow>
             <h3 className='enun'>3. A matriz quadrada é a aquela que possui o número de linhas m igual ao número de colunas n. Escreva um algoritmo no qual o usuário escolha o 
                 tamanho de uma matriz quadrada, insira elemento por elemento e por fim calcule a diferença entre a diagonal principal e secundaria da matriz</h3>
-            <h3 className='enun'>Escreva um algoritmo no qual o usuário escolha o tamanho de uma matriz quadrada, insira elemento por elemento e por fim calcule
-                a diferença entre a diagonal principal e secundaria da matriz</h3>
             <input
                 className='input'
                 type="number"
                 placeholder= {"Digite a ordem da matriz"}
                 onChange={handleInputChange}
             />
-            {order && <Matrix order={parseInt(order)}/>}
+            {order && <> <p className = "instrucao">Por favor, preencha a matriz abaixo de acordo com os valores desejados: </p> <Matrix order={parseInt(order)}/></>}
         </div>
     );
 }
@@ -75,6 +73,7 @@ function Matrix({ order }) {
 
     return (
         <div className='matrix'>
+            {/* <p className = "resposta">Por favor, preencha a matriz abaixo de acordo com os valores desejados: </p> */}
             {matrix.map((row, rowIndex) => (
                 <div key={rowIndex}>
                     {row.map((value, colIndex) => (
