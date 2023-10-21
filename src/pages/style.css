@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Merriweather+Sans:wght@600;800&display=swap');
+
+body {
+    background-color: rgb(255, 250, 223);
+    
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.matrix {
+    margin-top: 20px;
+}
+
+.matrixCell {
+    outline: none;
+    font-family: 'karla', sans-serif;
+    background-color: rgb(252, 246, 212);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black ;
+}
+
+.resposta {
+    font-family: 'karla', sans-serif;
+}
+
+.tittle {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 800;
+    margin: 150px 0px 5px 0px;
+    color: black;
+}
+
+.subTittle{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    margin: 0px 0px 50px 0px;
+    color: black;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.enun {
+    font-family: 'karla', sans-serif;
+    margin: 30px 300px 0px 300px;
+    text-align: left;
+}
+
+.letra{
+    font-family: 'karla', sans-serif;
+    margin: 20px 400px 0px 400px;
+    text-align: left;
+}
+
+.resposta_escrita {
+    font-family: 'Handlee', cursive;
+    margin: 20px 450px 0px 450px;
+}
+
+.input {
+    margin-top: 20px;
+    background-color: rgb(252, 246, 212);
+    font-family: 'karla', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid black ;
+    border-radius: 10px;
+    box-shadow: -3px 3px 0px 0px black;
+    outline: none;
+    height: 20px;
+    width: 200px;
+}
+
+.input:hover {
+    box-shadow: -5px 5px 0px 0px black;
+}
+
+.calculateButton {
+    margin-left: 10px;
+    background-color: rgb(252, 246, 212);
+    font-family: 'karla', sans-serif;
+    font-size: 10px;
+    padding: 5px;
+    border: 2px solid black ;
+    border-radius: 10px;
+    box-shadow: -3px 3px 0px 0px black;
+}
+
+.calculateButton:hover {
+    background-color: rgb(255, 247, 200);
+    box-shadow: -4px 4px 0px 0px black;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
+    font-family: 'karla', sans-serif;
+}
+
+.inputFibo {
+    margin-left: 60px;
+}
+
+.inputMDC {
+    width: 280px;
+}

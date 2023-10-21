@@ -1,0 +1,20 @@
+
+.arrow {
+    margin: 60px 0px 60px 300px;
+    display: flex;
+    align-items: flex-start;
+    background-image:url('../../assets/arrow.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black ;
+    border-radius: 10px;
+    box-shadow: -3px 3px 0px 0px black;
+    background-color: rgb(252, 246, 212);
+}
+
+.arrow:hover {
+    background-color: rgb(255, 247, 200);
+    box-shadow: -4px 4px 0px 0px black;
+    cursor: pointer;
+}
