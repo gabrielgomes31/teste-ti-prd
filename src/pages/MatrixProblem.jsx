@@ -21,7 +21,7 @@ export default function MatrixProblem() {
                 placeholder= {"Digite a ordem da matriz"}
                 onChange={handleInputChange}
             />
-            {order && <> <p className = "instrucao">Por favor, preencha a matriz abaixo de acordo com os valores desejados: </p> <Matrix order={parseInt(order)}/></>}
+            {order && <> <p className = "resposta">Por favor, preencha a matriz abaixo de acordo com os valores desejados: </p> <Matrix order={parseInt(order)}/></>}
         </div>
     );
 }
@@ -73,7 +73,6 @@ function Matrix({ order }) {
 
     return (
         <div className='matrix'>
-            {/* <p className = "resposta">Por favor, preencha a matriz abaixo de acordo com os valores desejados: </p> */}
             {matrix.map((row, rowIndex) => (
                 <div key={rowIndex}>
                     {row.map((value, colIndex) => (
