@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/teste-ti-prd/static/css/main.aa61aa8e.css",
-    "main.js": "/teste-ti-prd/static/js/main.268cdab4.js",
+    "main.js": "/teste-ti-prd/static/js/main.4ac08852.js",
     "index.html": "/teste-ti-prd/index.html",
     "main.aa61aa8e.css.map": "/teste-ti-prd/static/css/main.aa61aa8e.css.map",
-    "main.268cdab4.js.map": "/teste-ti-prd/static/js/main.268cdab4.js.map"
+    "main.4ac08852.js.map": "/teste-ti-prd/static/js/main.4ac08852.js.map"
   },
   "entrypoints": [
     "static/css/main.aa61aa8e.css",
-    "static/js/main.268cdab4.js"
+    "static/js/main.4ac08852.js"
   ]
 }
