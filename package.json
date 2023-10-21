@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage" : "https://gabrielgomes31.github.io/teste-ti-prd",
+  "homepage" : "https://gabrielgomes31.github.io/teste-ti-prd/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
