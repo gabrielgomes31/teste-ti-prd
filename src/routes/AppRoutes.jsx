@@ -8,7 +8,7 @@ import FibonacciProblem from '../pages/Fibonacci';
 export default function AppRoutes() {
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/fibonacci" element={<FibonacciProblem />} />
             <Route path="/mdc" element={<MDC />} />
             <Route path="/matrix" element={<MatrixProblem />} />
